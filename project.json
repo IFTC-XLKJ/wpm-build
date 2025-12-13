@@ -2,9 +2,9 @@
     "name": "wpm-build",
     "version": "1.0.0",
     "description": "A build tool for WPM projects",
-    "commands": [
-        "wpm-build"
-    ],
+    "commands": {
+        "wpm-build": "wpm-build.js"
+    },
     "imports": [],
     "dependencies": {}
 }
