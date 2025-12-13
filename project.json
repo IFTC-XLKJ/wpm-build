@@ -1,0 +1,7 @@
+{
+    "name": "wpm-build",
+    "version": "1.0.0",
+    "commands": [
+        "wpm-build"
+    ],
+}
