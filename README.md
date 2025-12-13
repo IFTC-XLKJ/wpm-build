@@ -1,2 +1,2 @@
 # wpm-build
-WebIDE Package Manager Build Tool
+a WebIDE Package Manager Build Tool
