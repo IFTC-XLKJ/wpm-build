@@ -4,4 +4,5 @@ async function main(args) {
         wpm.error("wpm version " + minVersion + " or higher is required to run this script.");
         return 1;
     }
+    const projectPath = wpm.projectPath;
 }
