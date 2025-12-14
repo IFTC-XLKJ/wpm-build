@@ -1,6 +1,6 @@
 const minVersion = '1.0';
 async function main(args) {
-    if (wpm.version === null) {
+    if (wpm.projectPath === null) {
         wpm.error("wpm has some errors. Please try after again.");
         return 1;
     }
