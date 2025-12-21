@@ -1,4 +1,6 @@
 const minVersion = '1.0';
+const helpText = ``;
+
 async function main(args) {
     if (wpm.projectPath === null) {
         wpm.error("wpm has some errors. Please try after again.");
@@ -9,4 +11,8 @@ async function main(args) {
         return 1;
     }
     const projectPath = wpm.projectPath;
+    if (args[1] == "-help") {
+        wpm.log(helpText);
+        return 0;
+    }
 }
